@@ -1,11 +1,12 @@
+<!-- 项目封面图（显示在 GitHub 首页顶部） -->
 <p align="center">
-  <img src="https://img.shields.io/badge/R-4.4.1-blue?logo=r" />
-  <img src="https://img.shields.io/github/license/labixiaojin/guangzhou-slope-analysis" />
-  <img src="https://img.shields.io/github/last-commit/labixiaojin/guangzhou-slope-analysis" />
+  <img src="output/maps/slope_class_map_guangzhou.png" alt="Slope Map" width="48%"/>
+  <img src="output/maps/soil_classification_map.png" alt="Soil Map" width="48%"/>
 </p>
 
+<!-- 项目名称副标题 -->
 <p align="center">
-  <img src="output/maps/slope_class_map_guangzhou.png" alt="项目封面图" width="720"/>
+  <strong>📘 Lesson 2: Slope & Soil Suitability Mapping</strong>
 </p>
 
 ## 📖 目录
@@ -47,6 +48,24 @@ guangzhou-slope-analysis/
 
 ---
 
+## 📥 数据获取说明
+
+由于部分数据（如 DEM）体积较大，未纳入本仓库。请通过以下链接下载所需数据：
+
+👉 [住宅区+DEM 数据下载（百度网盘）](https://pan.baidu.com/s/17GucH-eBUg7rHgJ1tKJfuQ?pwd=ahmc) 提取码：**ahmc**
+
+📁 下载后请将解压后的文件夹放置到以下目录：
+
+```
+data/住宅区+dem/
+```
+
+数据包含：
+- 广州市 DEM（dem_250m 文件夹）
+- 住宅区边界矢量数据
+
+---
+
 ## 🛠️ 使用方法
 
 1. 克隆本仓库或下载 ZIP
@@ -76,7 +95,9 @@ install.packages(c("terra", "sf", "tmap", "tidyverse"))
 
 最终输出地图如下所示：
 
-![Slope Map](output/maps/slope_class_map_guangzhou.png)
+| 坡度等级图 | 土壤适宜性图 |
+|:--:|:--:|
+| ![Slope Map](output/maps/slope_class_map_guangzhou.png) | ![Soil Map](output/maps/soil_classification_map.png) |
 
 ---
 
