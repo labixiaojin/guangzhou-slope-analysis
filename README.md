@@ -1,8 +1,10 @@
 <!-- 项目封面图（显示在 GitHub 首页顶部） -->
-<p align="center">
-  <img src="output/maps/slope_class_map_guangzhou.png" alt="Slope Map" width="48%"/>
-  <img src="output/maps/soil_classification_map.png" alt="Soil Map" width="48%"/>
-</p>
+<table align="center">
+<tr>
+<td><img src="output/maps/slope_class_map_guangzhou.png" width="48%"></td>
+<td><img src="output/maps/soil_classification_map.png" width="48%"></td>
+</tr>
+</table>
 
 <!-- 项目名称副标题 -->
 <p align="center">
@@ -95,9 +97,12 @@ install.packages(c("terra", "sf", "tmap", "tidyverse"))
 
 最终输出地图如下所示：
 
-| 坡度等级图 | 土壤适宜性图 |
-|:--:|:--:|
-| ![Slope Map](output/maps/slope_class_map_guangzhou.png) | ![Soil Map](output/maps/soil_classification_map.png) |
+<table>
+<tr>
+<td><img src="output/maps/slope_class_map_guangzhou.png" width="48%"></td>
+<td><img src="output/maps/soil_classification_map.png" width="48%"></td>
+</tr>
+</table>
 
 ---
 
