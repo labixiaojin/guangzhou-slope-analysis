@@ -15,7 +15,7 @@ library(tibble)    # 创建干净的数据表
 library(tmap)      # 制图工具（静态地图）
 
 # —— 设置输入文件路径 ——
-soil_shp_path <- "/Users/rui/Desktop/第二讲/数据/土壤/GZsoil.shp"  # 土壤矢量数据路径
+soil_shp_path <- "data/gzsoil/GZsoil.shp"  # 土壤矢量数据路径
 dem_ref_raster <- "output/rasters/slope_class.tif"                 # 用作参考的 DEM 栅格（分辨率、范围、投影）
 
 # —— Step 1：读取数据并评分 ——
