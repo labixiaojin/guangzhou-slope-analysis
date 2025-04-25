@@ -1,5 +1,9 @@
-# 忽略大数据文件（可本地保留）
-data/
-output/
+# 忽略原始数据和输出结果，但保留 .gitkeep 占位文件
+data/*
+!data/.gitkeep
+
+output/*
+!output/.gitkeep
+
 .Rhistory
 .Rproj.user/
