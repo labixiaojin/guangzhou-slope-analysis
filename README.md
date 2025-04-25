@@ -1,8 +1,6 @@
 <!-- 项目封面图（显示在 GitHub 首页顶部） -->
 <p align="center">
   <img src="output/maps/slope_class_map_guangzhou.png" width="100%"><br>
-  <img src="output/maps/soil_classification_map.png" width="100%"><br>
-  <img src="output/maps/water_score_50m.png" width="100%">
 </p>
 
 <!-- 项目名称副标题 -->
@@ -97,9 +95,9 @@ install.packages(c("terra", "sf", "tmap", "tidyverse"))
 最终输出地图如下所示：
 
 <p align="center">
-  <img src="output/maps/slope_class_map_guangzhou.png" width="100%"><br>
-  <img src="output/maps/soil_classification_map.png" width="100%"><br>
-  <img src="output/maps/water_score_50m.png" width="100%">
+  <img src="output/maps/slope_class_map_guangzhou.png" width="100%" alt="Slope Classification Map"><br><br>
+  <img src="output/maps/soil_classification_map.png" width="100%" alt="Soil Suitability Map"><br><br>
+  <img src="output/maps/water_score_50m.png" width="100%" alt="Water Distance Suitability Map">
 </p>
 
 ---
