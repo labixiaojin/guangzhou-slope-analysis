@@ -1,4 +1,8 @@
-
+<p align="center">
+  <img src="https://img.shields.io/badge/R-4.3.2-blue?logo=r" />
+  <img src="https://img.shields.io/github/license/labixiaojin/guangzhou-slope-analysis" />
+  <img src="https://img.shields.io/github/last-commit/labixiaojin/guangzhou-slope-analysis" />
+</p>
 
 # 📍 广州坡度等级分析项目
 
