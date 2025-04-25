@@ -1,0 +1,5 @@
+# 忽略大数据文件（可本地保留）
+data/
+output/
+.Rhistory
+.Rproj.user/
