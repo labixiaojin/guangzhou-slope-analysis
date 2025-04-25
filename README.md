@@ -1,8 +1,23 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/R-4.3.2-blue?logo=r" />
+  <img src="https://img.shields.io/badge/R-4.4.1-blue?logo=r" />
   <img src="https://img.shields.io/github/license/labixiaojin/guangzhou-slope-analysis" />
   <img src="https://img.shields.io/github/last-commit/labixiaojin/guangzhou-slope-analysis" />
 </p>
+
+<p align="center">
+  <img src="output/maps/slope_class_map_guangzhou.png" alt="项目封面图" width="720"/>
+</p>
+
+## 📖 目录
+
+- [项目简介](#-广州坡度等级分析项目)
+- [学习背景](#-第-2-课---坡度地图制图)
+- [项目结构](#-项目目录结构)
+- [使用方法](#-使用方法)
+- [依赖包](#-所需-r-包)
+- [输出示例](#-输出示例)
+- [脚本详解](scripts/README.md)
+- [许可协议](#-许可协议)
 
 # 📍 广州坡度等级分析项目
 
@@ -10,7 +25,7 @@
 
 ---
 
-## 📚 学习背景：第 2 课 - 坡度地图制图
+## 📚 第 2 课 - 坡度地图制图
 
 本项目是作者根据学习课程自建 R 地理空间学习课程的第 2 课，主题是：
 - 利用 DEM 生成坡度图
