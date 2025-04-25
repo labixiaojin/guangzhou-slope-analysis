@@ -5,7 +5,7 @@
 
 <!-- 项目名称副标题 -->
 <p align="center">
-  <strong>📘 Lesson 2: Slope & Soil Suitability Mapping</strong>
+  <strong>📘 Lesson 2: AHP层次分析法权重计算</strong>
 </p>
 
 ## 📖 目录
