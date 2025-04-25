@@ -39,6 +39,8 @@ guangzhou-slope-analysis/
    - 坡度等级划分与地图输出
 5. 所有输出将保存在 `output/` 文件夹
 
+
+📘 查看脚本详细讲解 👉 [点击进入](scripts/README.md)
 ---
 
 ## 📦 所需 R 包
@@ -55,7 +57,7 @@ install.packages(c("terra", "sf", "tmap", "tidyverse"))
 
 最终输出地图如下所示：
 
-![示例地图](output/maps/slope_class_map_guangzhou.png)
+![Slope Map](output/maps/slope_class_map_guangzhou.png)
 
 ---
 
