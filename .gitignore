@@ -1,4 +1,4 @@
 # 保留历史/缓存文件忽略规则
 .Rhistory
 .Rproj.user/
-.DS_Store
+.DS_Storedata/DEM/
