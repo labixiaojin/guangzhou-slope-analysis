@@ -3,7 +3,7 @@
 <tr>
 <td><img src="output/maps/slope_class_map_guangzhou.png" width="32%"></td>
 <td><img src="output/maps/soil_classification_map.png" width="32%"></td>
-<td><img src="output/maps/water_score_125m.png" width="32%"></td>
+<td><img src="output/maps/water_score_50m.png" width="32%"></td>
 </tr>
 </table>
 
@@ -102,7 +102,7 @@ install.packages(c("terra", "sf", "tmap", "tidyverse"))
 <tr>
 <td><img src="output/maps/slope_class_map_guangzhou.png" width="32%"></td>
 <td><img src="output/maps/soil_classification_map.png" width="32%"></td>
-<td><img src="output/maps/water_score_125m.png" width="32%"></td>
+<td><img src="output/maps/water_score_50m.png" width="32%"></td>
 </tr>
 </table>
 
