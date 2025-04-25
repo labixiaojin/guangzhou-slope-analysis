@@ -1,9 +1,3 @@
-# 忽略原始数据和输出结果，但保留 .gitkeep 占位文件
-data/*
-!data/.gitkeep
-
-output/*
-!output/.gitkeep
-
+# 保留历史/缓存文件忽略规则
 .Rhistory
 .Rproj.user/
