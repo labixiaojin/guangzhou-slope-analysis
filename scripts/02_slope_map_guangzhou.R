@@ -16,12 +16,12 @@ tmap_mode("plot")
 
 
 # —— Step 1：读取广州边界和水系矢量数据 ——
-gz_boundary <- st_read("/Users/rui/Desktop/第二讲/学习/广州bianjie.shp")
-river <- st_read("/Users/rui/Desktop/第二讲/数据/水系/gzwater.shp")
+gz_boundary <- st_read("data/gz_boundary/gzbianjie.shp")
+river <- st_read("data/gzwater/gzwater.shp")
 
 
 # —— Step 2：读取 DEM 并裁剪为广州范围 ——
-dem <- rast("/Users/rui/Desktop/第二讲/数据/住宅区+dem/dem_250m/dem_250m/dem_250m")
+dem <- rast("data/DEM")
 
 # ❗投影统一：将行政边界投影转换为 DEM 所用 CRS（WGS84，经纬度）
 gz_boundary <- st_transform(gz_boundary, crs(dem))
