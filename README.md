@@ -8,7 +8,7 @@
 
 ## 📚 学习背景：第 2 课 - 坡度地图制图
 
-本项目是作者自建 R 地理空间学习课程的第 2 课，主题是：
+本项目是作者根据学习课程自建 R 地理空间学习课程的第 2 课，主题是：
 - 利用 DEM 生成坡度图
 - 对坡度进行分级
 - 输出高质量地图
@@ -55,7 +55,7 @@ install.packages(c("terra", "sf", "tmap", "tidyverse"))
 
 最终输出地图如下所示：
 
-![示例地图](output/slope_class_map_guangzhou.png)
+![示例地图](output/maps/slope_class_map_guangzhou.png)
 
 ---
 
