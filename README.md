@@ -1,8 +1,9 @@
 <!-- 项目封面图（显示在 GitHub 首页顶部） -->
 <table align="center">
 <tr>
-<td><img src="output/maps/slope_class_map_guangzhou.png" width="48%"></td>
-<td><img src="output/maps/soil_classification_map.png" width="48%"></td>
+<td><img src="output/maps/slope_class_map_guangzhou.png" width="32%"></td>
+<td><img src="output/maps/soil_classification_map.png" width="32%"></td>
+<td><img src="output/maps/water_score_125m.png" width="32%"></td>
 </tr>
 </table>
 
@@ -99,8 +100,9 @@ install.packages(c("terra", "sf", "tmap", "tidyverse"))
 
 <table>
 <tr>
-<td><img src="output/maps/slope_class_map_guangzhou.png" width="48%"></td>
-<td><img src="output/maps/soil_classification_map.png" width="48%"></td>
+<td><img src="output/maps/slope_class_map_guangzhou.png" width="32%"></td>
+<td><img src="output/maps/soil_classification_map.png" width="32%"></td>
+<td><img src="output/maps/water_score_125m.png" width="32%"></td>
 </tr>
 </table>
 
